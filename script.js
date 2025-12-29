@@ -59,7 +59,6 @@ function checkMatch(){
         cards[optionTwoId].setAttribute('src','pokeball.jpg')
     }
     else if(cardChosen[0] == cardChosen[1]) {
-        alert('Matched')
         cards[cardsChosenIds[0]].setAttribute('src','open.jpg')
         cards[cardsChosenIds[1]].setAttribute('src','open.jpg')
         cards[cardsChosenIds[0]].removeEventListener('click',flipCard)
@@ -74,7 +73,7 @@ function checkMatch(){
     cardChosen = []
     
     if(cardsWon.length == cardArray.length/2){
-        resultDisplay.innerHTML = 'Congratulations'
+        resultDisplay.innerHTML = 'Congratulations🙌✨'
     }
 }
 function flipCard(){

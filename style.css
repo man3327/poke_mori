@@ -1,6 +1,18 @@
+body{
+    text-align: center;
+    background-color: green;
+}
 #grid {
     width: 400px;
     height: 300px;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
 }
+#grid img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
