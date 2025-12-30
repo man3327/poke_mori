@@ -30,6 +30,22 @@ const cardArray = [
     {
         name: 'ditto',
         img: 'ditto.jpg',
+    },
+    {
+        name: 'mime',
+        img: 'mime.jpg',
+    },
+    {
+        name: 'mime',
+        img: 'mime.jpg',
+    },
+    {
+        name: 'amaura',
+        img: 'amaura.jpg',
+    },
+    {
+        name: 'amaura',
+        img: 'amaura.jpg',
     }
 ]
 cardArray.sort(() => 0.5 - Math.random())  
